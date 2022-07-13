@@ -1,0 +1,69 @@
+/* inline  không set được with, height, margin top,margin bottom*/
+.demo1 {
+    /* thuộc tính display */
+width: 200px;
+/* display : block chuyển thẻ inline sang thẻ block */
+display: block;
+/* display: inline-block vừa thẻ inline vừa là thẻ block */
+display: inline-block;
+/* display: none để ẩn  */
+display: none;
+}
+/* thuộc tính về font */
+.font {
+    /* thay doi kiểu font */
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+} 
+.html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px; 
+    font-weight: 100;
+    font-style: italic;
+    /* tăng độ đậm font-weight  */
+}
+/* set font cho web thì dùng trong thẻ html */
+/* có thể sử dụng @import url(./vào thư mục tạo font) */
+/* các thuộc tính cho text 
+color : màu text
+text-algin: căn lề đoạn văn
+text-decoration: tạo kiểu chữ : gạch chân dưới,...
+text-transform:in hoa ,in thường
+letter-spacing: khoảng cách giữa các chữ
+worrd-spacing: khoảng cách giữa các từ
+line-height khoảng cách giữa các dòng
+white-space hiển thi trên 1 dòng duy nhất
+*/
+.text {
+color: red;
+text-align: center;  
+text-decoration: dashed;  
+text-transform: capitalize;
+letter-spacing: 5px;
+word-spacing: 10px;
+line-height: 1.5cm;
+white-space: nowrap ;
+}
+.anh {
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover ;
+}
+/*  thuộc tính psedo-class: hover class , visited */
+
+.hover {
+    transition: all;
+}
+.hover:hover {
+color: red;
+}
+/* lựa chọn toàn bộ link đã được ghé thăm */
+.visited:visited {
+color: aqua;
+}
+/* khi click vào thì hiển thị trạng thái đó lên */
+.active:active {
+color: red;
+}
+/* transition làm cho mượt hơn
+ */
